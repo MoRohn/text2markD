@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "text2markd"
+version = "0.1.0"
+description = ""
+authors = ["rspringfield91 <rspringfield91@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+streamlit = "^1.39.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
